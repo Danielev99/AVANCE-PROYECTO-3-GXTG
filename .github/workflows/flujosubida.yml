@@ -18,12 +18,13 @@ jobs:
     steps:
       - name: presentación
         run: |
-          echo "Nombres: $ Daniel"
-          echo "Apellidos: $Huamani Llacsa"
-          echo "Edad: $26"
+          echo "Nombres: $nombres"
+          echo "Apellidos: $apellidos"
+          echo "Edad: $edad"
 
       - name: datos generales
-        run: echo "carrera de ingeniería de sistemas"
+        run: |
+          echo "carrera de ingeniería de sistemas"
 
       - name: variables de entorno secretas
         env:
@@ -34,4 +35,5 @@ jobs:
           echo "password: *****"
 
       - name: variables abiertas
-        run: echo "Versión del proyecto: $version_proyecto"
+        run: |
+          echo "Versión del proyecto: $version_proyecto"
