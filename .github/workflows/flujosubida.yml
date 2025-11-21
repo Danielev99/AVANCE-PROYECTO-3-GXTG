@@ -11,16 +11,16 @@ jobs:
 
     env:
       nombres: "Daniel"
-      apellidos: "Huamani"
-      edad: "25"
+      apellidos: "Huamani Llacsa"
+      edad: "26"
       version_proyecto: "3.0"
 
     steps:
       - name: presentación
         run: |
-          echo "Nombres: $nombres"
-          echo "Apellidos: $apellidos"
-          echo "Edad: $edad"
+          echo "Nombres: $ Daniel"
+          echo "Apellidos: $Huamani Llacsa"
+          echo "Edad: $26"
 
       - name: datos generales
         run: echo "carrera de ingeniería de sistemas"
